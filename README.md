@@ -12,3 +12,42 @@ cd -
 django-admin startproject django_todo .
 
 python3 manage.py runserver
+
+----------------------
+
+python3 manage.py startapp todo
+
+-----------------------------
+
+python3 manage.py makemigrations --dry-run
+
+python3 manage.py showmigrations
+
+python3 manage.py migrate --plan
+
+python3 manage.py migrate
+
+python3 manage.py createsuperuser
+
+-----------------------
+
+python3 manage.py makemigrations --dry-run
+
+python3 manage.py makemigrations
+
+python3 manage.py showmigrations
+
+python3 manage.py migrate --plan
+
+python3 manage.py migrate
+
+--------------------
+---------------------
+
+pip3 install coverage
+
+coverage run --source=todo manage.py test
+
+coverage report
+
+coverage html
