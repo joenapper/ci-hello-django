@@ -51,3 +51,14 @@ coverage run --source=todo manage.py test
 coverage report
 
 coverage html
+
+python3 -m http.server
+
+-----------------
+### Deployment
+
+pip3 install psycopg2-binary
+
+pip3 install gunicorn
+
+pip3 freeze --local > requirements.txt
