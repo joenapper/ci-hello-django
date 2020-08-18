@@ -70,3 +70,9 @@ pip3 install dj_database_url
 heroku config
 
 python3 manage.py migrate
+
+--------------------
+
+heroku config:set DISABLE_COLLECTSTATIC=1
+
+web: gunicorn django_todo.wsgi:application
