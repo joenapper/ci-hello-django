@@ -66,3 +66,7 @@ pip3 freeze --local > requirements.txt
 heroku apps:create (name) --region eu
 
 pip3 install dj_database_url
+
+heroku config
+
+python3 manage.py migrate
