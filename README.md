@@ -1,3 +1,9 @@
+Simple to do list app created using Django full stack framework. Includes complete CRUD functionality
+
+View live site @ https://to-do-app-version1a.herokuapp.com/
+
+-----------------------------
+
 pip3 install django
 
 cd /workspace/.pip-modules/lib/python3.8/site-packages/
